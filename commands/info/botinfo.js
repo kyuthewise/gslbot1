@@ -18,7 +18,7 @@ const formatOS = {
 {
 	
 	prefix = 't!';
-	BOT_PREFIX = t!
+	BOT_PREFIX = 't!';
 }
 
 module.exports = {
