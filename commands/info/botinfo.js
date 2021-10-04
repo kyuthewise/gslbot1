@@ -17,7 +17,7 @@ const formatOS = {
 };
 {
 	
-	prefix = t!
+	prefix = 't!';
 	BOT_PREFIX = t!
 }
 
