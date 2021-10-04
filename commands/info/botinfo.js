@@ -15,6 +15,11 @@ const formatOS = {
 	sunos: 'SunOS',
 	win32: 'Windows',
 };
+{
+	
+	prefix = t!
+	BOT_PREFIX = t!
+}
 
 module.exports = {
 	name: 'botinfo',
