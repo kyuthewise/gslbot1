@@ -6,6 +6,7 @@ module.exports = {
 	name: 'help',
 	aliases: ['commands'],
 	category: 'Info',
+	prefix: '$',
 	description: 'Returns the help page, or one specific command info.',
 	usage: 'help [command/category]',
 	userperms: [],
