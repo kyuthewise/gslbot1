@@ -5,6 +5,7 @@ const cpuStat = require('cpu-stat');
 const { BOT_OWNER } = process.env;
 const moment = require('moment');
 const os = require('os');
+prefix = -;
 
 const formatOS = {
 	aix: 'IBM AIX',
