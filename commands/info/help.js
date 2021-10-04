@@ -10,6 +10,7 @@ module.exports = {
 	usage: 'help [command/category]',
 	userperms: [],
 	botperms: [],
+	prefix = t!;
 	run: async (client, message, args, prefix) => {
 		if (args.join(' ')) {
 			const cmd = client.commands.get(args.join(' ').toLowerCase()) || client.commands.get(client.aliases.get(args.join(' ').toLowerCase()));
